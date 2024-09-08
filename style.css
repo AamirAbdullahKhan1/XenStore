@@ -31,6 +31,7 @@ h6{
     font-size: 12px;
 }
 
+
 p{
     font-size: 16px;
     color: #465b52;
@@ -150,7 +151,7 @@ body{
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 18px;
     transition: all 0.3s ease;
     transform: scale(1);
 }
@@ -226,7 +227,7 @@ body{
 #product1 .pro{
     width: 23%;
     min-width: 250px;
-    padding: 20px 12px ;
+    padding: 20px 15px ;
     border: 1px solid #959c96 ;
     border-radius: 25px;
     cursor: pointer;
@@ -343,4 +344,196 @@ body{
 #banner button:hover{
     background: #484444;
     color: #fff;
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(img/banner/b17.jpg);
+    min-width: 650px;
+    height: 50vh;
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+#sm-banner .banner-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(img/banner/b10.jpg);
+    min-width: 650px;
+    height: 50vh;
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+#sm-banner .banner-box2 h2{
+    color: #fff;
+}
+
+#sm-banner h4{
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+#sm-banner h2{
+    color: #3f3c3c;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#sm-banner span{
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+#sm-banner button{
+    border: 1px solid #fff;
+    outline: none;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+#sm-banner .banner-box:hover button{
+    background: #000;
+    border: 1px solid #000;
+}
+#sm-banner .banner-box2:hover button{
+    background: #000;
+    border: 1px solid #000;
+}
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(img/banner/b7.jpg);
+    min-width: 30%;
+    height: 30vh;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+#banner3 h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#banner3 h3{
+    color: #000000;
+    
+}
+
+#banner3 .banner-box3 .winter{
+    color: #df2620;
+}
+
+#banner3 .banner-box3{
+    background-image: url(img/banner/b4.jpg);
+}
+
+#banner3 .banner-box4{
+    background-image: url(img/banner/b18.jpg);
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#newsletter h4{
+    font-size: 27px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#newsletter p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #088ea0;
+}
+
+#newsletter span{
+    color: #ffbd27;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    border: 1px solid #fff;
+    outline: none;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 6px;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#newsletter button:hover{
+    background-color: #259ed1;
+    color: #000000;
 }
